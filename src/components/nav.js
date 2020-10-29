@@ -191,7 +191,7 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href="https://drive.google.com/file/d/1pHOdrZBXkH3Jmuq2K2ec_d_gD3i0WteN/view?usp=sharing" className="resume-button">
+                  <a href="/resume.pdf" className="resume-button">
                     Resume
                   </a>
                 </div>
